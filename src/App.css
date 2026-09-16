@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f2eb;
+  color: #1c2d3d;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+}
+
+.eyebrow {
+  margin: 0 0 14px;
+  color: #f29a7b;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.main-content {
+  width: 69%;
+  min-height: 100vh;
+  background: #f8f6f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 590px;
+  min-height: 500px;
+  background: #fffdf9;
+  border: 1px solid #d9e0df;
+  border-radius: 22px;
+  padding: 38px 36px;
+  box-shadow: 0 20px 50px rgba(27, 48, 55, 0.08);
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #617384;
+  font-size: 12px;
+}
+
+.progress-header span:first-child {
+  color: #ee9678;
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+
+.form-heading {
+  margin-top: 35px;
+}
+
+.form-heading h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 43px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: #1b2c3d;
+}
+
+.form-heading > p:last-child {
+  margin-top: 18px;
+  color: #65778a;
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 480px;
+}
+
+.placeholder {
+  margin-top: 45px;
+  height: 150px;
+  border: 1px dashed #cbd5d5;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9aa8ae;
+  font-size: 14px;
+}
+
+.signin {
+  margin-top: 22px;
+  color: #758594;
+  font-size: 12px;
+}
+
+.signin strong {
+  color: #17626a;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: #e6ecec;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 10px;
+  background: #ef9274;
+  transition: width 0.3s ease;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+    padding: 25px 30px;
+  }
+
+  .sidebar-content {
+    margin-top: 40px;
+  }
+
+  .sidebar h1 {
+    font-size: 42px;
+  }
+
+  .security {
+    position: static;
+    margin-top: 30px;
+  }
+
+  .main-content {
+    width: 100%;
+    min-height: auto;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-card {
+    padding: 28px 22px;
+    border-radius: 16px;
+  }
+
+  .form-heading h2 {
+    font-size: 34px;
+  }
+
+  .main-content {
+    padding: 20px 14px;
+  }
+}

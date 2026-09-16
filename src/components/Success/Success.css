@@ -1,0 +1,33 @@
+.success-section {
+  margin-top: 55px;
+  text-align: center;
+}
+
+.success-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ef9274;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.success-section h2 {
+  margin: 0;
+  color: #24384a;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.success-section p {
+  max-width: 360px;
+  margin: 14px auto 0;
+  color: #71818d;
+  font-size: 13px;
+  line-height: 1.7;
+}
