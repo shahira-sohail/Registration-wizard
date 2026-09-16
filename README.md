@@ -13,7 +13,7 @@ https://registration-wizard-omega-tawny.vercel.app/
 https://github.com/shahira-sohail/registration-wizard
 
 ## Screnshots
-![Sprint07ss]
+(Sprint07ss)
 
 ---
 
